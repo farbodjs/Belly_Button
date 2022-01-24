@@ -63,12 +63,16 @@ function buildCharts(sample) {
     console.log(samplesArray);
 
     // 4. Create a variable that filters the samples for the object with the desired sample number.
-
+    var selectedIdSamples = samplesArray.filter(data => data.id == sample);
+    console.log(selectedIdSamples);
     //  5. Create a variable that holds the first sample in the array.
-
+    var firstSample = selectedIdSamples[0];
+    console.log(firstSample);
 
     // 6. Create variables that hold the otu_ids, otu_labels, and sample_values.
-
+    var otuIds = firstSample.otu_ids;
+    var otuLabels = firstSample.otu_labels;
+    var sampleValues = firstSample.sample_values;
 
     // 7. Create the yticks for the bar chart.
     // Hint: Get the the top 10 otu_ids and map them in descending order  
