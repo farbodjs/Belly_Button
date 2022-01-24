@@ -1,141 +1,107 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "4afec4f2",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "var cityGrowths = [\n",
-    "  {\n",
-    "    \"Rank\": 1,\n",
-    "    \"City\": \"San Antonio \",\n",
-    "    \"State\": \"Texas\",\n",
-    "    \"Increase_from_2016\": \"39208\",\n",
-    "    \"population\": \"1511946\"\n",
-    "  },\n",
-    "  {\n",
-    "    \"Rank\": 2,\n",
-    "    \"City\": \"Phoenix \",\n",
-    "    \"State\": \"Arizona\",\n",
-    "    \"Increase_from_2016\": \"34036\",\n",
-    "    \"population\": \"1626078\"\n",
-    "  },\n",
-    "  {\n",
-    "    \"Rank\": 3,\n",
-    "    \"City\": \"Dallas\",\n",
-    "    \"State\": \"Texas\",\n",
-    "    \"Increase_from_2016\": \"23935\",\n",
-    "    \"population\": \"1341075\"\n",
-    "  },\n",
-    "  {\n",
-    "    \"Rank\": 4,\n",
-    "    \"City\": \"Fort Worth\",\n",
-    "    \"State\": \"Texas\",\n",
-    "    \"Increase_from_2016\": \"20664\",\n",
-    "    \"population\": \"874168\"\n",
-    "  },\n",
-    "  {\n",
-    "    \"Rank\": 5,\n",
-    "    \"City\": \"Los Angeles\",\n",
-    "    \"State\": \"California\",\n",
-    "    \"Increase_from_2016\": \"18643\",\n",
-    "    \"population\": \"3999759\"\n",
-    "  },\n",
-    "  {\n",
-    "    \"Rank\": 6,\n",
-    "    \"City\": \"Seattle\",\n",
-    "    \"State\": \"Washington\",\n",
-    "    \"Increase_from_2016\": \"17490\",\n",
-    "    \"population\": \"724745\"\n",
-    "  },\n",
-    "  {\n",
-    "    \"Rank\": 7,\n",
-    "    \"City\": \"Charlotte\",\n",
-    "    \"State\": \"North Carolina\",\n",
-    "    \"Increase_from_2016\": \"15551\",\n",
-    "    \"population\": \"859035\"\n",
-    "  },\n",
-    "  {\n",
-    "    \"Rank\": 8,\n",
-    "    \"City\": \"Columbus \",\n",
-    "    \"State\": \"Ohio\",\n",
-    "    \"Increase_from_2016\": \"15429\",\n",
-    "    \"population\": \"879170\"\n",
-    "  },\n",
-    "  {\n",
-    "    \"Rank\": 9,\n",
-    "    \"City\": \"Frisco\",\n",
-    "    \"State\": \"Texas\",\n",
-    "    \"Increase_from_2016\": \"13470\",\n",
-    "    \"population\": \"177286\"\n",
-    "  },\n",
-    "  {\n",
-    "    \"Rank\": 10,\n",
-    "    \"City\": \"Atlanta\",\n",
-    "    \"State\": \"Georgia\",\n",
-    "    \"Increase_from_2016\": \"13323\",\n",
-    "    \"population\": \"486290\"\n",
-    "  },\n",
-    "  {\n",
-    "    \"Rank\": 11,\n",
-    "    \"City\": \"San Diego\",\n",
-    "    \"State\": \"California\",\n",
-    "    \"Increase_from_2016\": \"12834\",\n",
-    "    \"population\": \"1419516\"\n",
-    "  },\n",
-    "  {\n",
-    "    \"Rank\": 12,\n",
-    "    \"City\": \"Austin \",\n",
-    "    \"State\": \"Texas\",\n",
-    "    \"Increase_from_2016\": \"12515\",\n",
-    "    \"population\": \"950715\"\n",
-    "  },\n",
-    "  {\n",
-    "    \"Rank\": 13,\n",
-    "    \"City\": \"Jacksonville\",\n",
-    "    \"State\": \"Florida\",\n",
-    "    \"Increase_from_2016\": \"11169\",\n",
-    "    \"population\": \"892062\"\n",
-    "  },\n",
-    "  {\n",
-    "    \"Rank\": 14,\n",
-    "    \"City\": \"Irvine\",\n",
-    "    \"State\": \"California\",\n",
-    "    \"Increase_from_2016\": \"11068\",\n",
-    "    \"population\": \"277453\"\n",
-    "  },\n",
-    "  {\n",
-    "    \"Rank\": 15,\n",
-    "    \"City\": \"Henderson\",\n",
-    "    \"State\": \"Nevada\",\n",
-    "    \"Increase_from_2016\": \"10534\",\n",
-    "    \"population\": \"302539\"\n",
-    "  }\n",
-    " ];"
-   ]
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "mlenv",
-   "language": "python",
-   "name": "mlenv"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.7.11"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+var cityGrowths = [
+    {
+      "Rank": 1,
+      "City": "San Antonio ",
+      "State": "Texas",
+      "Increase_from_2016": "39208",
+      "population": "1511946"
+    },
+    {
+      "Rank": 2,
+      "City": "Phoenix ",
+      "State": "Arizona",
+      "Increase_from_2016": "34036",
+      "population": "1626078"
+    },
+    {
+      "Rank": 3,
+      "City": "Dallas",
+      "State": "Texas",
+      "Increase_from_2016": "23935",
+      "population": "1341075"
+    },
+    {
+      "Rank": 4,
+      "City": "Fort Worth",
+      "State": "Texas",
+      "Increase_from_2016": "20664",
+      "population": "874168"
+    },
+    {
+      "Rank": 5,
+      "City": "Los Angeles",
+      "State": "California",
+      "Increase_from_2016": "18643",
+      "population": "3999759"
+    },
+    {
+      "Rank": 6,
+      "City": "Seattle",
+      "State": "Washington",
+      "Increase_from_2016": "17490",
+      "population": "724745"
+    },
+    {
+      "Rank": 7,
+      "City": "Charlotte",
+      "State": "North Carolina",
+      "Increase_from_2016": "15551",
+      "population": "859035"
+    },
+    {
+      "Rank": 8,
+      "City": "Columbus ",
+      "State": "Ohio",
+      "Increase_from_2016": "15429",
+      "population": "879170"
+    },
+    {
+      "Rank": 9,
+      "City": "Frisco",
+      "State": "Texas",
+      "Increase_from_2016": "13470",
+      "population": "177286"
+    },
+    {
+      "Rank": 10,
+      "City": "Atlanta",
+      "State": "Georgia",
+      "Increase_from_2016": "13323",
+      "population": "486290"
+    },
+    {
+      "Rank": 11,
+      "City": "San Diego",
+      "State": "California",
+      "Increase_from_2016": "12834",
+      "population": "1419516"
+    },
+    {
+      "Rank": 12,
+      "City": "Austin ",
+      "State": "Texas",
+      "Increase_from_2016": "12515",
+      "population": "950715"
+    },
+    {
+      "Rank": 13,
+      "City": "Jacksonville",
+      "State": "Florida",
+      "Increase_from_2016": "11169",
+      "population": "892062"
+    },
+    {
+      "Rank": 14,
+      "City": "Irvine",
+      "State": "California",
+      "Increase_from_2016": "11068",
+      "population": "277453"
+    },
+    {
+      "Rank": 15,
+      "City": "Henderson",
+      "State": "Nevada",
+      "Increase_from_2016": "10534",
+      "population": "302539"
+    }
+   ];
