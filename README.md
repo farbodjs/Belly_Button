@@ -8,6 +8,9 @@ The goal of this project is to visualize the bacterial data https://github.com/f
 ## Creatig an interactive dashboard
 This dashboard uses various interactive charts such as Bar and Bubble charts to explore the bacterial biodiversity dataset.
 
+Please click on the following link to access out interactive dashboard:
+https://farbodjs.github.io/Belly_Button/
+
 ![image](https://user-images.githubusercontent.com/86033316/151749879-73ae716c-6954-4531-9ee9-ec8fbc1cb029.png)
 
 Users can select Test Subject Id No. from dropdown menu as shown in below snippet:
